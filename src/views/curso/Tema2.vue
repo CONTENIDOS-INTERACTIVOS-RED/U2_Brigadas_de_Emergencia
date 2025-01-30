@@ -1,73 +1,69 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Legislación y normatividad nacional aplicable a las brigadas de emergencia'")
+    BannerInterno(:subTitulo="'2. Funciones y responsabilidades de la brigada de emergencias'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      .row.mb-5
+      p(data-aos="fade-left").mb-4 Como lo estudiamos en la unidad anterior, la brigada de emergencia está compuesta por un grupo diverso de empleados de diferentes departamentos, que tienen diferentes funciones dentro de las cuales se destacan las siguientes:
+
+
+      .row.align-items-start.mb-5
+        .col-lg-8
+          AcordionA(tipo="b")
+            .div(titulo="Prevención y preparación")
+              p La brigada debe realizar exhaustivas evaluaciones de riesgos y peligros en el entorno, identificando potenciales amenazas que puedan poner en peligro la seguridad de los individuos.
+              p Desarrollar y actualizar de manera continua planes de emergencia y evacuación, asegurando que estén alineados con las mejores prácticas y normativas vigentes.
+              p Organizar y participar en simulacros de emergencia, proporcionando una experiencia práctica para la evacuación y respuesta ante crisis, fomentando la familiarización del personal con los procedimientos a seguir.
+
+            .div(titulo="Comunicación")
+              p La brigada tiene la responsabilidad de actuar como un puente comunicativo entre los empleados, la dirección y los servicios de emergencia externos, asegurando que la información fluya de manera precisa y oportuna.
+              p Informar sobre situaciones de riesgo potencial y las medidas preventivas que deben ser adoptadas, fomentando una cultura de seguridad proactiva dentro de la organización.
+
+            .div(titulo="Respuesta inmediata")
+              p Responder de forma rápida y eficiente ante emergencias, que pueden incluir incendios, desastres naturales, accidentes laborales, entre otros, minimizando así los daños y las lesiones.
+              p Coordinar la evacuación del personal, garantizando que se sigan meticulosamente los procedimientos establecidos y que todas las personas estén a salvo.
+
+            .div(titulo="Primera ayuda")
+              p Proporcionar primeros auxilios a las personas heridas o afectadas hasta que puedan ser atendidas por servicios médicos profesionales, actuando con rapidez y conocimiento.
+              p Mantener un botiquín de primeros auxilios, asegurando que esté completo y accesible en todo momento, lo que es crucial para una respuesta efectiva.
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema2/1.png", alt="").mb-4.mb-lg-0
 
-        .col-lg-8
-          
-          .bg-color-3.p-4(data-aos="fade-left").mb-4
-            p.mb-0  Para abordar este tema tan importante como son las brigadas de emergencia, debemos traer a colación referencias normativas y legales que van desde lo general a lo particular. Una de ellas es la estipulada en el Artículo 131 del Código Penal, que indica que la omisión de socorro es un delito, que establece que cualquier persona que, sin una justa causa, eluda su deber de auxiliar a alguien cuya vida o salud se encuentre en grave peligro, incurrirá en una falta grave que traerá penalidades. Esta disposición legal subraya la importancia de la responsabilidad social en situaciones de emergencia, promoviendo la solidaridad y la protección de la vida humana, como un valor fundamental en nuestra sociedad.
-          
-          p(data-aos="fade-left")  Para abordar este tema tan importante como son las brigadas de emergencia, debemos traer a colación referencias normativas y legales que van desde lo general a lo particular. Una de ellas es la estipulada en el Artículo 131 del Código Penal, que indica que la omisión de socorro es un delito, que establece que cualquier persona que, sin una justa causa, eluda su deber de auxiliar a alguien cuya vida o salud se encuentre en grave peligro, incurrirá en una falta grave que traerá penalidades. Esta disposición legal subraya la importancia de la responsabilidad social en situaciones de emergencia, promoviendo la solidaridad y la protección de la vida humana, como un valor fundamental en nuestra sociedad.
-  
 
-      .bg-full-width.bg-fondo-1
-        .px-4.px-md-5.pb-md-3
 
-          .row.justify-content-center.align-items-stretch
-            .col-lg-6.mb-4(data-aos="zoom-in-up")
-              .custom-image-card-2.h-100
-                img.custom-image-card__image(src="@/assets/curso/tema2/2.png" alt="")
-                .custom-image-card__text.p-4
-                  p.mb-0 Para comprender el impacto de las brigadas de emergencia en el ámbito laboral colombiano, es importante revisar las normas y directrices que establecen su funcionamiento, incluyendo las responsabilidades de los empleadores y los trabajadores en la implementación de estas brigadas.
-            .col-lg-6.mb-4(data-aos="zoom-in-down")
-              .custom-image-card-2.h-100
-                img.custom-image-card__image(src="@/assets/curso/tema2/3.png" alt="")
-                .custom-image-card__text.p-4
-                  p.mb-0 La Ley 1562 del 2012, que modifica el Sistema General de Riesgos Laborales, subraya la importancia de tener un plan de emergencias, el cual debe incluir la creación y capacitación de brigadas de emergencia, que actúen de manera coordinada en caso de incidentes.
-
-      p(data-aos="fade-left").mb-4  El conocimiento y la capacitación en esta área, son vitales para fomentar un entorno laboral seguro. Las brigadas de emergencia no solo deben estar conformadas por personal entrenado, sino que también es crucial que cada trabajador esté capacitado en los procedimientos básicos de seguridad y conozca su rol específico dentro del plan de emergencias. De esta manera, se crea una cultura de prevención y autocuidado que beneficia a todos en la organización.
-
-      .row.mb-5
-        .col-lg-8
-          p(data-aos="fade-left").mb-4 Les invito a considerar este texto como una herramienta que contribuya al fortalecimiento de la preparación y respuesta ante emergencias en el lugar de trabajo. La participación activa y el compromiso de todos los miembros de la organización, son fundamentales para desarrollar un ambiente laboral más seguro y resiliente.
-
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
-            .row.align-items-center
-              .col-lg-auto
-                img(src="@/assets/curso/tema2/4.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 La Ley 1562 del 2012 y las guías del Ministerio de Trabajo, son referencias claves para establecer las brigadas de emergencia. Por ejemplo, se especifica que "la preparación y respuesta ante emergencias, deben ser responsabilidad compartida, donde cada miembro de la organización juega un papel fundamental para asegurar la integridad de sus compañeros" (Ministerio de Trabajo, 2017).   
-
-          p(data-aos="fade-left").mb-4  Esta afirmación enfatiza que la seguridad en situaciones de emergencia, no depende únicamente de los coordinadores de la brigada, sino que cada trabajador debe ser un agente activo en la preservación de un ambiente laboral seguro.
-
-          p(data-aos="fade-left").mb-4 #[b Conozcamos otras normativas:]
-
+      .row.align-items-start.mb-5
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema2/2.png", alt="").mb-4.mb-lg-0
 
-      .bg-full-width.bg-color-3
-        .px-4.p-md-5
-          .row.justify-content-center.align-items-center
-            .col-lg-5
-              figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema2/6.png", alt="")
-            .col-lg-7
-              h2.mb-4(data-aos="flip-up") Otras normativas
-              p.mb-4(data-aos="fade-right") La normativa relacionada con las brigadas de emergencia establece lineamientos clave para garantizar la seguridad y la salud de los trabajadores en los entornos laborales. En el PDF Otras normativas , se explican las leyes, decretos y resoluciones que exigen la creación de brigadas capacitadas para enfrentar situaciones de riesgo. Este material resalta la importancia de la prevención, la formación en primeros auxilios y la preparación ante emergencias, promoviendo una cultura de seguridad laboral que protege la vida de los empleados y asegura la continuidad de las operaciones empresariales.
+        .col-lg-8
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <strong>Anexo. </strong> Otras normativas
+          AcordionA(tipo="b")
+            .div(titulo="Evaluación de situaciones")
+              p Evaluar la situación de emergencia para determinar su gravedad y las acciones adecuadas que deben ser implementadas, actuando con un alto grado de juicio y atención al detalle.
+              p Monitorear el desarrollo de la emergencia y ajustar la respuesta, según sea necesario, adaptándose a las circunstancias cambiantes de la crisis.
 
+            .div(titulo="Capacitación y entrenamiento")
+              p Capacitar a otros empleados sobre procedimientos de emergencia y el uso correcto de equipos de seguridad, asegurando que la preparación sea un esfuerzo colectivo.
+              p Mantener actualizados sobre las últimas técnicas de rescate, primeros auxilios y manejo de crisis, lo que les permite responder de manera informada y efectiva.
+
+
+            .div(titulo="Documentación y reporte")
+              p Registrar minuciosamente los incidentes y las acciones tomadas durante la emergencia, lo que permite un análisis posterior que es fundamental para la mejora continua.
+              p Informan a la dirección sobre las lecciones aprendidas y proponen mejoras para los planes de emergencia existentes, contribuyendo a la evolución de las políticas de seguridad de la organización.
+
+
+
+            .div(titulo="Colaboración con autoridades")
+              p Trabajar en estrecha colaboración con autoridades locales y servicios de emergencia (como bomberos, policía y ambulancias) tanto durante como después de la emergencia, facilitando una respuesta integral y coordinada.
+
+      .bg-full-width.bg-color-2
+        .px-4.px-md-5.py-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/3.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Estas responsabilidades son cruciales para no solo garantizar la seguridad y el bienestar de las personas en situaciones críticas, sino también para mitigar los impactos negativos de las emergencias en la organización o comunidad, creando un entorno más seguro y resiliente. La efectividad de la brigada de emergencia radica en su capacidad para actuar con rapidez, conocimiento y un enfoque colaborativo, lo que permite enfrentar con éxito los desafíos que surgen en momentos de crisis. 
 
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
@@ -78,7 +74,7 @@
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/ereader/tecnologicadeloriente/59621?page=130" target="_blank" rel="noopener noreferrer") Conesa Bernal, J. A. (2017). Emergencias y evacuación: ( ed.). Editorial ICB. 
+                a(href="https://gaia.gobiernobogota.gov.co/sites/default/files/documentos/sig/documentos/rol-brigadista.pdf" target="_blank" rel="noopener noreferrer") Gómez, E. P. G. (s/f). Rol del brigadista de emergencia y su certificación en la Secretaría Distrital de Gobierno.
 
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")

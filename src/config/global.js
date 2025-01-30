@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Marco conceptual y normativo',
+    numeroUnidad: '2',
+    tituloUnidad: 'Conformación de brigadas de emergencia',
   },
   menuPrincipal: {
     menu: [
@@ -15,59 +15,59 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Marco conceptual y normativo',
+        titulo:
+          'Conformación de brigadas de emergencias y Comité operativo de emergencia empresarial',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Legislación y normatividad nacional aplicable a las brigadas de emergencia',
+        titulo: 'Funciones y responsabilidades de la brigada de emergencias',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Conceptos básicos de las brigadas de emergencia',
+        titulo: 'Perfil del brigadista de emergencias',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Identificación de los tipos de brigadas de emergencia',
+        titulo: 'Recursos básicos requeridos en una brigada de emergencias',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Brigada de evacuación',
+            titulo: 'Personal capacitado',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Brigada de primeros auxilios',
+            titulo: 'Equipamiento o elementos de protección personal (EPP)',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Brigada de prevención y combate de incendio',
+            titulo: 'Herramientas y equipos de rescate',
             hash: 't_4_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Brigada de comunicación',
+            titulo: 'Botiquín de primeros auxilios',
             hash: 't_4_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.5',
-            titulo: 'Brigada de búsqueda y rescate',
+            titulo: 'Planificación y protocolos de emergencia',
             hash: 't_4_5',
           },
         ],
@@ -110,33 +110,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Ley 599 de 2000 - Gestor Normativo. (s. f.). Función Pública.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6388',
-    },
-    {
-      referencia: 'Resolución 2400 de 1979 Ministerio del Trabajo. (s. f.).',
-      link:
-        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=53565',
-    },
-    {
-      referencia:
-        'Ley 9 de 1979 Congreso de la República de Colombia. (s. f.).',
-      link: 'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177',
-    },
-    {
-      referencia:
-        'Congreso de Colombia (Julio 11 de 2012) Ley 1562 de 2012. Ministerio de Trabajo. Colombia.',
-      link: 'http://www.mintrabajo.gov.co/normatividad/leyes/2012.html',
-    },
-    {
-      referencia:
-        'República de Colombia. (Mayo 26 de 2015) Decreto 1072 de 2015. Ministerio de Trabajo. Colombia.',
-      link:
-        'http://www.mintrabajo.gov.co/normatividad/decreto-unico-reglamentario-trabajo.html',
-    },
-    {
-      referencia:
         'Decreto Ley 1295 de 1994 - Gestor Normativo. (s. f.). Función Pública.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=2629',
@@ -157,90 +130,86 @@ export default {
       referencia:
         'Conesa Bernal, J. A. (2017). Emergencias y evacuación: ( ed.). Editorial ICB.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/59621?page=130',
+        'https://elibro.net/es/ereader/tecnologicodeloriente/59621?page=130',
+    },
+    {
+      referencia: '(S/f-d). Com.co. Recuperado el 10 de diciembre de 2024, de',
+      link:
+        'https://osipedia.com.co/wp-content/uploads/2024/03/05.-PRESENTACION-SESION-1-BIENVENIDO-A-CONFORMAR-UNA-BRIGADA-DE-EMERGENCIA.pdf',
+    },
+    {
+      referencia:
+        'Resolución 705 de 2007 Secretaría Distrital de Salud. (s. f.).',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=31885',
     },
     {
       referencia:
         'Torres Nieto, H. (2012). Manual de primeros auxilios y brigadas de emergencia: ( ed.). Fundación Universitaria del Área Andina.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/70932?page=168',
+        'https://elibro.net/es/ereader/tecnologicodeloriente/70932?page=168',
     },
   ],
   glosario: [
     {
+      termino: 'Botiquín de Primeros Auxilios',
+      significado:
+        'conjunto de materiales básicos usados para brindar atención médica inmediata en situaciones de emergencia.',
+    },
+    {
       termino: 'Brigada de Emergencias',
       significado:
-        'grupo de personas entrenadas para actuar en situaciones de emergencia, como incendios, desastres naturales o accidentes, con el objetivo de proteger vidas y bienes.',
+        'grupo organizado de empleados capacitados para responder a emergencias en el entorno laboral, protegiendo a personas, bienes y el medio ambiente.',
     },
     {
-      termino: 'Centro de Comando',
+      termino: 'Comité Operativo Empresarial de Emergencias (COEE)',
       significado:
-        'lugar designado donde se coordinan las respuestas a la emergencia y se gestionan los recursos.',
+        'equipo especializado que coordina y gestiona las acciones operativas de respuesta durante una emergencia en una organización.',
     },
     {
-      termino: 'Comunicación de Emergencia',
+      termino: 'Comunicación en Emergencias',
       significado:
-        'mecanismos y estrategias para informar a la población y a los equipos de respuesta sobre la situación de emergencia y las instrucciones a seguir.',
+        'proceso clave para garantizar el flujo adecuado de información entre brigadistas, empleados y servicios externos durante una crisis.',
     },
     {
-      termino: 'Equipamiento de Emergencia',
+      termino: 'Cultura de Prevención',
       significado:
-        'herramientas y dispositivos utilizados por las brigadas para abordar diferentes tipos de emergencias, como extintores, equipos de rescate, botiquines de primeros auxilios, entre otros.',
+        'prácticas y actitudes dentro de una organización que promueven la preparación y reducción de riesgos ante emergencias.',
     },
     {
-      termino: 'Evaluación de riesgos',
+      termino: 'Equipos de Protección Personal (EPP)',
       significado:
-        'proceso de identificar, analizar y valorar los riesgos asociados a posibles situaciones de emergencia.',
+        'herramientas y vestimenta especial diseñada para proteger a los individuos de riesgos en entornos peligrosos durante una emergencia.',
     },
     {
-      termino: 'Evacuación',
+      termino: 'Evaluación de Riesgos',
       significado:
-        'proceso de mover a personas de un lugar peligroso a un lugar seguro.',
+        'proceso de identificación y análisis de peligros potenciales en el entorno laboral para prevenir emergencias.',
     },
     {
-      termino: 'Plan de Emergencias',
+      termino: 'Extintores',
       significado:
-        'documento que contiene estrategias y procedimientos a seguir en caso de una emergencia para minimizar riesgos y coordinar acciones.',
+        'equipos portátiles diseñados para apagar incendios pequeños en sus etapas iniciales.',
     },
     {
-      termino: 'Prevención',
+      termino: 'Mapa de Riesgo',
       significado:
-        'conjunto de acciones dirigidas a evitar que ocurran emergencias o desastres, o a reducir su impacto',
+        'representación gráfica que identifica las áreas vulnerables y recursos claves en el lugar de trabajo para la gestión de emergencias.',
+    },
+    {
+      termino: 'Plan de Emergencia',
+      significado:
+        'documento que establece los procedimientos a seguir en caso de una emergencia, detallando roles, recursos y acciones necesarias',
     },
     {
       termino: 'Primeros Auxilios',
       significado:
-        'asistencia inmediata que se proporciona a una persona lesionada o enferma antes de que llegue ayuda profesional.',
+        'atención inmediata proporcionada a personas lesionadas antes de la llegada de servicios médicos profesionales.',
     },
     {
-      termino: 'Protocolos',
+      termino: 'Simulacro de Emergencia',
       significado:
-        'conjuntos de procedimientos establecidos que deben seguirse durante situaciones de emergencia.',
-    },
-    {
-      termino: 'Rescate',
-      significado:
-        'acción de recuperar a personas que están en peligro, atrapadas o en una situación de emergencia.',
-    },
-    {
-      termino: 'Respuesta a Emergencias',
-      significado:
-        'acciones implementadas inmediatamente después de una emergencia para controlar la situación y minimizar daños.',
-    },
-    {
-      termino: 'Simulacro',
-      significado:
-        'ejercicio práctico que replica una situación de emergencia para entrenar a los miembros de la brigada y mejorar la efectividad de la respuesta.',
-    },
-    {
-      termino: 'Triaje',
-      significado:
-        'proceso de clasificar a las personas que requieren atención médica en función de la gravedad de sus lesiones o enfermedades durante una emergencia.',
-    },
-    {
-      termino: 'Voluntariado',
-      significado:
-        'personas que ofrecen su tiempo y habilidades para ayudar en situaciones de emergencia, a menudo sin remuneración',
+        'ejercicio práctico que permite entrenar al personal en procedimientos de evacuación y respuesta ante situaciones críticas.',
     },
   ],
 }

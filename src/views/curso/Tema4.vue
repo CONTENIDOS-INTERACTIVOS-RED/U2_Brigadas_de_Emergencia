@@ -1,25 +1,108 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'4. Identificación de los tipos de brigadas de emergencia'")
+    BannerInterno(:subTitulo="'4. Recursos básicos requeridos en una brigada de emergencias'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .row.mb-5
+      .row.mb-4
         .col-lg-8
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .bg-color-7.p-4(data-aos="fade-left").mb-4
             .row.align-items-start
               .col-lg-auto
                 img(src="@/assets/curso/tema4/1.svg", style="max-width: 90px").mx-auto
               .col-lg
-                p.mb-0 El #[b concepto de brigada] se puede simplificar y definir, como grupos de personas organizadas y capacitadas para emergencias, en donde ellas mismas son responsables de combatirlas de manera preventiva, o intervenir ante eventos de alto riesgo, siniestro o desastres, en instituciones educativas, empresas, industrias y cuya función está orientada a salvaguardar a las personas, sus bienes y el entorno de estos (Torres Nieto, 2012). 
+                p.mb-0  Recordemos que las brigadas de emergencia son grupos organizados de personas que se preparan para responder, de manera efectiva, a situaciones de crisis, como incendios, desastres naturales, accidentes industriales, entre otros. Para que estas brigadas operen de forma eficiente y segura, es fundamental contar con una serie de recursos básicos que les permitan llevar a cabo sus funciones de manera adecuada. 
 
-          p(data-aos="fade-left").mb-4 La brigada de emergencia constituye un componente fundamental en la gestión de la seguridad y salud ocupacional de cualquier organización, ya sea pública o privada. Este grupo está conformado por un conjunto de trabajadores, servidores públicos, trabajadores del sector privado y contratistas, quienes comparten un compromiso común: la salvaguarda de la integridad física y emocional de sus compañeros de trabajo, así como la protección del entorno laboral.
-
-          p(data-aos="fade-left") #[b Conozcamos algunos aspectos importantes:]  
+          p(data-aos="fade-left").mb-4 A continuación, se describen los recursos esenciales que deben estar disponibles para una brigada de emergencias.
 
         .col-lg-4
           figure
             img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
 
+
+      #t_4_1.titulo-segundo(data-aos="flip-up")
+        h2 #[span 4.1] Personal capacitado
+
+      p(data-aos="fade-left").mb-4 El recurso más valioso en una brigada de emergencias es, sin duda, el capital humano. La eficacia y el éxito de la respuesta ante una emergencia dependen en gran medida de la preparación y habilidades del personal involucrado. Por ello, es crucial contar con personal debidamente capacitado en diversas áreas que abarcan tanto la atención inmediata como la gestión de situaciones críticas.
+
+
+      TabsC.color-acento-contenido.mb-5
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Primeros auxilios" :icon="require('@/assets/bullets/icon-tab-c-1-2.svg')" )
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Primeros auxilios
+              p La formación en atención básica y avanzada de primeros auxilios es fundamental. Todos los miembros de la brigada deben ser competentes en técnicas esenciales, como la RCP (reanimación cardiopulmonar), que puede ser determinante en la supervivencia de una persona en estado crítico. Además, el conocimiento sobre el manejo de heridas, fracturas y otras lesiones comunes es vital. La capacitación debe incluir prácticas regulares y simulacros para asegurar que cada miembro se sienta seguro y capaz de actuar con rapidez y eficacia ante una emergencia real.
+          
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema4/tab-1.png', alt='')
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Liderazgo y gestión de crisis" :icon="require('@/assets/bullets/icon-tab-c-2-2.svg')" )
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Liderazgo y gestión de crisis
+              p La dinámica de un equipo de emergencia requiere de líderes que posean habilidades excepcionales en la coordinación de acciones. Estos líderes no solo deben ser capaces de tomar decisiones rápidas y efectivas bajo presión, sino que también deben saber comunicar claramente las instrucciones al equipo. La gestión de recursos es igualmente crucial; los líderes deben ser capaces de evaluar la situación, priorizar tareas y asignar roles específicos a cada miembro del equipo, garantizando así una respuesta organizada y eficiente. La formación en liderazgo, debe incluir el desarrollo de habilidades interpersonales, dado que la cohesión del equipo es un factor determinante en el éxito de la operación.
+          
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema4/tab-2.png', alt='')
+
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Formación técnica" :icon="require('@/assets/bullets/icon-tab-c-3-2.svg')" )
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Formación técnica
+              p La capacitación técnica es esencial y debe ser adaptada al tipo de emergencias que se pueden presentar. Por ejemplo, en el caso de incendios, el personal debe recibir formación en el manejo de fuego, incluyendo el uso de extintores y técnicas de evacuación. Para situaciones que involucren rescates en alturas, es imprescindible que los miembros de la brigada estén entrenados en técnicas de escalada y en el uso de equipos de seguridad específicos. Asimismo, en el caso de derrames químicos, el personal debe estar familiarizado con los protocolos de respuesta, incluyendo la identificación de sustancias peligrosas y el uso de las mismas.
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema4/tab-3.png', alt='', style="width: 100%;")
+
+ 
+      #t_4_2.titulo-segundo(data-aos="flip-up")
+        h2 #[span 4.2] Equipamiento o elementos de protección personal (EPP)
+
+      p(data-aos="fade-left").mb-4 La seguridad del personal es primordial en cualquier operación, especialmente en contextos de riesgo como aquellos que involucran brigadas de emergencia o trabajos en entornos peligrosos. Por ello, cada miembro de la brigada debe contar con el equipo de protección personal (EPP) adecuado, que no solo cumple una función de resguardo físico, sino que también es fundamental para garantizar la eficacia en la ejecución de sus labores. A continuación, se profundiza en los diversos elementos que componen este equipo y su importancia.
+
+      .bg-full-width.bg-color-info
+        .p-4.p-md-5
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-10
+              ImagenInfografica.color-secundario
+                  template(v-slot:imagen)
+                    figure
+                      img(src="@/assets/curso/tema4/info1.png", alt="", style="max-width: 1182px;").mx-auto
+
+                  .bg-color-white.box-shadow.p-3(x="7%" y="93.5%" numero="+")
+                    h5 Casco
+                    p Este elemento es vital para la protección de la cabeza, puesto que puede prevenir lesiones severas causadas por golpes o caídas de objetos, que son comunes en situaciones de emergencia. Además, muchos cascos modernos están diseñados con características adicionales, como viseras o sistemas de ventilación, que aumentan la comodidad y la funcionalidad en el campo.
+
+                  .bg-color-white.box-shadow.p-3(x="28.5%" y="5.5%" numero="+")
+                    h5 Guantes
+                    p La elección de guantes adecuados es crucial, pues las manos son unas de las partes más expuestas y vulnerables del cuerpo. Los guantes no solo protegen contra cortes y abrasiones, sino que también evitan quemaduras y el contacto con sustancias químicas peligrosas. Es fundamental seleccionar guantes específicos para cada tipo de tarea, considerando factores como la resistencia a productos químicos, la abrasividad y la temperatura.
+
+                  .bg-color-white.box-shadow.p-3(x="45%" y="93.5%" numero="+")
+                    h5 Botas de seguridad
+                    p Las botas son un componente esencial que proporciona soporte y protección a los pies. Deben ser resistentes a objetos punzantes o pesados, además de ofrecer características como suelas antideslizantes y propiedades impermeables. La comodidad y el ajuste adecuado son igualmente importantes, porque el personal puede estar en pie durante largos períodos o moverse en terrenos irregulares.
+
+                  .bg-color-white.box-shadow.p-3(x="62.5%" y="7.5%" numero="+")
+                    h5 Ropa ignífuga
+                    p Para las brigadas que intervienen en incendios, la ropa ignífuga es indispensable. Este tipo de vestimenta está diseñada para resistir altas temperaturas y minimizar el riesgo de quemaduras. Además, debe ser ligera y permitir libertad de movimiento, debido a que, en situaciones de emergencia, la agilidad puede ser un factor determinante para la seguridad y el éxito de la intervención.
+
+                  .bg-color-white.box-shadow.p-3(x="79.5%" y="93.5%" numero="+")
+                    h5 Mascarillas y respiradores
+                    p En entornos donde hay riesgo de inhalar humo, gases tóxicos o partículas en el aire, el uso de mascarillas y respiradores se convierte en una necesidad. Estos dispositivos no solo protegen la salud respiratoria del personal, sino que también son esenciales para mantener la concentración y la eficacia en situaciones críticas. Es importante que el equipo de respiración se ajuste correctamente y sea adecuado para el tipo específico de contaminantes presentes en el ambiente.
+
+
+      .bg-full-width.bg-color-2.mb-5
+        .px-4.px-md-5.py-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema4/3.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 El Equipamiento de Protección Personal (EPP), no es simplemente un conjunto de herramientas; es una inversión en la seguridad y el bienestar de los miembros de la brigada. La correcta selección, uso y mantenimiento del EPP son responsabilidades que deben ser asumidas con seriedad, dado que pueden marcar la diferencia entre la vida y la muerte en situaciones de riesgo. Además, la capacitación sobre el uso adecuado del EPP, es esencial para maximizar su efectividad y garantizar que el personal esté preparado para enfrentar cualquier desafío que se presente en su labor.
+
+      #t_4_3.titulo-segundo(data-aos="flip-up")
+        h2 #[span 4.3] Herramientas y equipos de rescate
+
+      p(data-aos="fade-left").mb-4 Los equipos y herramientas de rescate, son muy importantes dentro de las empresas, puesto que estas permiten contrarrestar cualquier situación de emergencia que se presente, dentro de estas herramientas y equipos se pueden destacar:
+      
 
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
@@ -29,447 +112,107 @@
                 figure
                   img(src="@/assets/curso/tema4/slider-1.png")
               .col-lg-7
-                h5 Capacitación continua
-                p La capacitación continua es uno de los pilares sobre los que se sostiene la efectividad de una brigada de emergencia. Los miembros de la brigada reciben formación específica en diversos aspectos relacionados con la prevención de riesgos, la gestión de emergencias, el uso de Equipos de Protección Ppersonal (EPP ) y la aplicación de protocolos de evacuación y rescate, entre otros. Esta preparación les permite identificar, evaluar y clasificar las condiciones de riesgo presentes en su entorno, lo que resulta vital para implementar medidas proactivas, que minimicen la posibilidad de incidentes.
+                h5 Mangueras y extintores
+                p Son herramientas indispensables en la lucha contra incendios. Las mangueras deben ser de alta presión y longitud suficiente, para llegar a los puntos críticos, mientras que los extintores deben estar clasificados, según el tipo de fuego que se puede presentar, ya sean incendios de materiales sólidos, líquidos o eléctricos. La capacitación sobre su uso adecuado es igualmente importante para maximizar su efectividad en situaciones de emergencia.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
                   img(src="@/assets/curso/tema4/slider-2.png")
               .col-lg-7
-                h5 Organización de la brigada de emergencia
-                p La organización de la brigada de emergencia, se traduce en la creación de roles y responsabilidades claramente definidas dentro del grupo. Esto no solo potencia la respuesta ante situaciones críticas, sino que también fomenta un sentido de pertenencia y de trabajo en equipo entre sus miembros. Cada integrante juega un papel clave en la cadena de mando y en la ejecución de los planes de acción establecidos, lo que facilita una reacción coordinada y eficiente durante una emergencia.
+                h5 Cuerdas y arneses
+                p Son esenciales no solo para rescates en alturas, como en el caso de edificios colapsados o en operaciones en acantilados, sino también para asegurar a los rescatistas en situaciones peligrosas. La elección de cuerdas de alta resistencia y la correcta colocación de arneses son vitales para prevenir caídas y accidentes, lo que puede marcar la diferencia entre la vida y la muerte durante una operación de rescate.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
                   img(src="@/assets/curso/tema4/slider-3.png")
               .col-lg-7
-                h5 Capacidad de control y respuesta
-                p La capacidad de control y respuesta ante situaciones de riesgo, es otro aspecto esencial del funcionamiento de una brigada de emergencia. En el caso de eventos inesperados, como incendios, derrames químicos, desastres naturales o accidentes laborales, la brigada actúa de manera rápida y efectiva. Su intervención puede marcar la diferencia en la minimización de daños materiales y en la protección de vidas humanas.
+                h5 Palas y picos
+                p Son herramientas manuales que, aunque simples, son cruciales en situaciones de derrumbes o deslizamientos de tierra. Permiten a los rescatistas remover escombros y acceder a las víctimas atrapadas. La ergonomía y la calidad de estas herramientas no deben subestimarse, porque, en situaciones de alta presión, la eficiencia en el uso de estas herramientas puede acelerar el rescate.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
                   img(src="@/assets/curso/tema4/slider-4.png")
               .col-lg-7
-                h5 Cultura de prevención y seguridad
-                p El impacto de las brigadas de emergencia trasciende el ámbito inmediato de la organización. Al fomentar una cultura de prevención y seguridad, contribuyen a la concientización general de los funcionarios, los beneficios y ventajas que tiene la brigada. Esto no solo beneficia a los trabajadores, sino que también mejora la productividad y la reputación de la organización, al evidenciar su compromiso con el bienestar de sus empleados y el cumplimiento de normativas de seguridad.
-
-      #t_4_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 4.1] Brigada de evacuación   
-
-      
-      .row.mb-5
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in")
-
-        .col-lg-8
-          p(data-aos="fade-left").mb-4  Para abordar la importancia de esta brigada, debemos conocer el concepto debido a que estas brigadas tienen como finalidad desalojar a las personas de zonas de riesgo a una zona segura, en el menor tiempo posible. Deben conocer las vías de evacuación y vigilar que ninguna persona se devuelva al sitio de riesgo (Torres Nieto, 2012).
-
-          .bg-color-3.p-4(data-aos="fade-left")
-            p.mb-0  La brigada de evacuación, está integrada por brigadistas cuya principal función es garantizar la seguridad de los funcionarios y visitantes mediante la orientación y el traslado a un lugar seguro o al punto de encuentro previamente establecido durante una emergencia. Este equipo juega un papel crucial en la protección del personal y en la implementación efectiva de las medidas de evacuación en situaciones de riesgo.
-          
-
-      p(data-aos="fade-left")  #[b Para la brigada de evacuación, daremos un repaso de sus principales funciones:]
-
-      .bg-full-width.bg-fondo-2
-        .px-4.px-md-5.pb-md-3
-          .row.justify-content-center.mb-5
-
-            .col-lg-4
-              figure
-                img(src="@/assets/curso/tema4/4.png", alt="")
-
-            .col-lg-8
-
-              SlyderF(columnas="col-12 col-lg-6")
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-1.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Familiarización con el plan de emergencias
-                  p.text-center Cada brigadista debe estar bien informado sobre el plan de emergencias que corresponde a su lugar de trabajo.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-2.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Mantenimiento de la señalización
-                  p.text-center Los brigadistas son responsables de verificar que toda la señalización de emergencia dentro de la sede, esté visible y en buen estado. Esto incluye la revisión de extintores, botiquines y gabinetes de seguridad, confirmando que estén accesibles y funcionales.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-3.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Censo actualizado
-                  p.text-center Es fundamental que la Brigada mantenga un registro actualizado y continuo de todos los empleados y contratistas presentes en la sede. Esto facilita la contabilización de personal durante una evacuación.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-4.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Despeje de rutas de evacuación
-                  p.text-center Los brigadistas tienen la tarea de observar y asegurar que las rutas de evacuación permanezcan desobstruidas y libres de cualquier peligro que pueda poner en riesgo a las personas durante una emergencia.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-5.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Emisión de señales de evacuación
-                  p.text-center Deben estar preparados para activar la señal de evacuación en el momento que la situación lo requiera, siguiendo estrictamente las pautas adquiridas en los entrenamientos de evacuación.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-6.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Coordinación de simulacros
-                  p.text-center La Brigada organiza y coordina simulacros de evacuación que simulan escenarios reales, donde la evacuación sea necesaria, permitiendo a todos los presentes familiarizarse con los procedimientos.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-7.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Colaboración en emergencias
-                  p.text-center En situaciones de emergencia, los brigadistas deben actuar en coordinación con otros miembros del equipo operativo, asegurando una respuesta cohesiva y efectiva.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-8.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Organización y supervisión del desplazamiento
-                  p.text-center Durante la evacuación, la Brigada es responsable de dirigir y organizar a las personas hacia el punto de encuentro, asegurándose de que nadie quede atrás en su área de competencia.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-9.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Atención a capacidades diferenciales
-                  p.text-center Es vital que los brigadistas identifiquen y conozcan a los trabajadores que presenten capacidades diferenciales, para proporcionarles la asistencia necesaria y garantizar una salida segura durante una evacuación.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-10.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Identificación de rutas alternativas
-                  p.text-center En el caso que la ruta de evacuación previamente planificada, esté bloqueada o represente un peligro, los brigadistas deben tener la capacidad de indicar rutas alternativas seguras a las personas.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-11.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Censo al punto de encuentro
-                  p.text-center Al llegar al punto de encuentro designado, es responsabilidad de la Brigada realizar un conteo de las personas para asegurar que todos han salido de manera segura.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-12.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Coordinación para el regreso
-                  p.text-center Una vez superada la emergencia o en el contexto de simulacros, los brigadistas deben coordinar el regreso de los trabajadores a las instalaciones, asegurando que no haya riesgos latentes.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-13.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Capacitación continua
-                  p.text-center Los miembros de la Brigada deben mantenerse actualizados en sus conocimientos y habilidades, participando en el proceso de capacitación regular para brigadistas, lo que les permitirá actuar con eficacia y confianza en situaciones de emergencia.
-                .bg-color-white.p-4.h-100.shadow-app
-                  img(src="@/assets/curso/tema4/icon-14.svg", alt="AvatarTop", style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Comunicación con la dirección
-                  p.text-center Finalmente, es crucial que los brigadistas informen sobre las actividades realizadas y el estado de los procedimientos al jefe de la brigada de su entidad, contribuyendo a la mejora continua del plan de evacuación y seguridad.
-
-
-      .bg-full-width.bg-color-2.mb-5
-        .px-4.px-md-5.py-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/5.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 La brigada de evacuación es un componente esencial en el plan de seguridad de una institución, porque también promueve la cultura de prevención y cuidado dentro del entorno laboral. Su labor es fundamental para asegurar que todos los trabajadores y visitantes puedan actuar con rapidez y seguridad ante cualquier eventualidad.
-
-
-      #t_4_2.titulo-segundo(data-aos="flip-up")
-        h2 #[span 4.2] Brigada de primeros auxilios
-
-
-      .row.mb-5
-        .col-lg-8
-                      
-          p(data-aos="ßfade-left").mb-4 Abordaremos un concepto muy importante sobre esta brigada, puesto que como lo indica Torres Nieto (2012), tienen como finalidad atender y estabilizar víctimas en el sitio de la emergencia, solicitar ayuda especializada y remitir a los centros asistenciales si es necesario. Mantener el botiquín de primeros auxilios en un lugar visible y al alcance de los brigadistas. 
-
-          .bg-color-4.px-4.py-4(data-aos="fade-left").mb-4
-            p.mb-0 La Brigada de primeros auxilios, está compuesta por un grupo de brigadistas capacitados para intervenir en situaciones de emergencia. Su principal responsabilidad es la de estabilizar a los pacientes lesionados o incrédulos, de modo que se minimicen las complicaciones hasta que puedan ser trasladados a un centro de atención médica adecuado.
-
-        .col-lg-4.d-none.d-sm-block
-          figure
-            img(src="@/assets/curso/tema4/6.png", data-aos="zoom-in").mt-4.mt-lg-0
-
-      p(data-aos="fade-left").mb-4  Esta brigada es tan fundamental, que amerita que describamos algunas de sus funciones principales:
-
-      .bg-full-width.bg-fondo-slider.mb-5
-        .p-4.p-md-5
-          SlyderA(tipo="b").bg-white(data-aos="zoom-in")
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-1-2.png")
-              .col-lg-7
-                h5 Convocatoria y organización en emergencias
-                p En caso de una emergencia, los brigadistas deberán convocar de inmediato a todos los miembros de la brigada y sus colaboradores a un punto específico previamente designado. Allí, establecerán un puesto de socorro completamente equipado para gestionar la situación de alto riesgo, desastre o siniestro que se presente.
+                h5 Camillas y sillas
+                p Sillas de ruedas y camillas, son elementos fundamentales para el transporte seguro de los heridos. Las camillas deben ser livianas, pero robustas, y contar con características que faciliten la inmovilización de la víctima. Además, las sillas de ruedas adaptarse para terrenos difíciles, permitiendo que los rescatistas trasladan a las personas heridas de manera rápida y segura hasta un lugar donde puedan recibir atención médica.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
-                  img(src="@/assets/curso/tema4/slider-2-2.png")
+                  img(src="@/assets/curso/tema4/slider-5.png")
               .col-lg-7
-                h5 Coordinación en situaciones críticas
-                p Durante la emergencia, los brigadistas trabajarán de manera sinérgica con otros integrantes del grupo operativo, asegurando una respuesta efectiva y eficiente en la asistencia a los afectados.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-3-2.png")
-              .col-lg-7
-                h5 Valoración y atención inmediata
-                p Al llegar a la escena, se realizará una valoración inicial o triage básico, que permitirá identificar la gravedad de las lesiones. A partir de esta evaluación, se brindarán cuidados inmediatos y temporales a quienes se encuentren en condiciones críticas, con el objetivo de estabilizarlos y evitar un deterioro adicional de su salud mientras se espera la llegada de asistencia médica especializada.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-4-2.png")
-              .col-lg-7
-                h5 Aplicación de protocolos de atención
-                p Los brigadistas aplicarán rigurosamente los protocolos de atención aprendidos en los cursos de formación, asegurando que cada intervención se lleve a cabo de manera adecuada. Es esencial que actúen junto a sus compañeros y utilicen los dispositivos de comunicación para garantizar un contacto rápido con las líneas de emergencia.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-5-2.png")
-              .col-lg-7
-                h5 Transición a servicios de emergencia
-                p Una vez que el paciente haya recibido la asistencia inicial, será entregado a los equipos de auxilio profesionales para su transporte y cuidado en un centro médico.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-6-2.png")
-              .col-lg-7
-                h5 Gestión de recursos posterior a la emergencia
-                p Una vez superada la crisis, los brigadistas llevarán a cabo un inventario de los equipos utilizados y evaluarán aquellos que necesiten mantenimiento o reposición, así como llevar un control de los medicamentos empleados durante la intervención.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-7-2.png")
-              .col-lg-7
-                h5 Mantenimiento de materiales de primera necesidad
-                p Se encargará de que los botiquines de primeros auxilios estén siempre actualizados, en buen estado y disponibles para su uso inmediato. Igualmente, es crucial que el equipo de dotación personal se mantenga en perfecto estado y en un lugar accesible y seguro.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-8-2.png")
-              .col-lg-7
-                h5 Actualización continua de conocimientos
-                p Los brigadistas deben mantenerse al día con respecto a los conocimientos en primeros auxilios, participando regularmente en procesos de capacitación que fortalezcan sus habilidades y competencias.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-9-2.png")
-              .col-lg-7
-                h5 Registro de actuaciones
-                p Finalmente, es fundamental llevar un registro detallado de las intervenciones realizadas, asegurando que la información se integre y actualice dentro del Sistema de Gestión de Salud y Seguridad en el Trabajo, contribuyendo así a la mejora continua de los procesos de atención.
-
-
-      .bg-full-width.bg-color-2.mb-5
-        .px-4.px-md-5.py-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/7.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 La Brigada de primeros auxilios juega un papel crucial en la respuesta a emergencias y desastres, ofreciendo cuidados inmediatos y coordinando el traslado de pacientes a servicios médicos, todo ello respaldado por formación y protocolos que aseguran una atención efectiva y profesional. 
-
-
-      #t_4_3.titulo-segundo(data-aos="flip-up")
-        h2 #[span 4.3] Brigada de prevención y combate de incendios
-
-
-      .row.mb-5
-        .col-lg-8
-                      
-          .bg-color-4.px-4.py-4(data-aos="fade-left").mb-4
-            p.mb-0 Una de las brigadas con mayor relevancia en su accionar y que siempre hemos visto con mayor funcionamiento a nivel mundial, es la Brigada de prevención y combate de incendios; está brigada es un grupo especializado compuesto por personal capacitado y entrenado para actuar de forma rápida y efectiva ante situaciones de incendio, con el objetivo primordial de minimizar daños a la vida humana y a la propiedad. Este equipo juega un papel crucial en la preparación y respuesta a emergencias, trabajando en la prevención de incendios y en la mitigación de sus efectos.
-
-          p(data-aos="ßfade-left").mb-4 #[b Está brigada tiene funciones bastante riesgosas para la integridad de sus integrantes y describiremos sus roles principales en 9 pasos:]
-
-        .col-lg-4.d-none.d-sm-block
-          figure
-            img(src="@/assets/curso/tema4/8.png", data-aos="zoom-in").mt-4.mt-lg-0
-
-      .row.align-items-start.mb-5
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema4/9.png", alt="").mb-4.mb-lg-0
-        .col-lg-8
-
-          AcordionA(tipo="b")
-            .div(titulo="Inspecciones regulares")
-              p Esta brigada es encargada de realizar inspecciones periódicas a los extintores y sistemas de protección contra incendios para asegurar que todos los equipos se encuentren en óptimas condiciones de operación. Esto incluye verificar fechas de vencimiento, condiciones físicas y accesibilidad.
-
-            .div(titulo="Mantenimiento del acceso")
-              p Esta brigada debe supervisar que los equipos contra incendio estén debidamente ubicados y que no existan obstáculos que impidan su acceso durante una emergencia. Esta acción es fundamental para garantizar que, en el momento crítico, los recursos estén disponibles y sean de fácil utilización.
-
-            .div(titulo="Identificación de riesgos")
-              p Esta brigada debe reconocer potenciales riesgos asociados a situaciones de emergencia. Esto incluye la identificación de áreas vulnerables y la evaluación del ambiente de trabajo, según los estándares establecidos durante las formaciones.
-
-            .div(titulo="Conocimiento de equipos de extinción")
-              p Es esencial que los miembros de la brigada conozcan a fondo el funcionamiento y uso adecuado de los diferentes equipos de extinción disponibles, ajustándose al tipo de fuego que puedan enfrentar, ya sea eléctrico, químico o de otro tipo, siguiendo las directrices proporcionadas en su formación.
-
-            .div(titulo="Operación de equipos")
-              p En caso de emergencia, el equipo actuará conforme a los protocolos definidos por el organismo encargado de la capacitación. Esto asegura una respuesta organizada y eficaz ante cada situación de riesgo
-
-
-      .row.align-items-start.mb-5
-        .col-lg-8
-
-          AcordionA(tipo="b")
-            .div(titulo="Inspección de infraestructura")
-              p Esta brigada debe realizar revisiones meticulosas para identificar sobrecargas en las líneas eléctricas y evitar la acumulación de materiales inflamables en los espacios de trabajo, reduciendo así el riesgo de incendios accidentales.
-
-            .div(titulo="Coordinación en emergencias")
-              p Durante cualquier emergencia, se prioriza la colaboración y coordinación entre los integrantes de la brigada y otros grupos operativos. Esta sinergia es vital para maximizar la eficacia de la respuesta.
-
-            .div(titulo="Comunicación con servicios de emergencia")
-              p En situaciones de peligro, la brigada de comunicación tiene la responsabilidad de notificar a los bomberos y otros cuerpos de emergencia sobre el siniestro, así como de detallar las acciones que ya se han realizado para abordar el incendio.
-
-            .div(titulo="Reportes y seguimiento")
-              p Después de una intervención, el líder de la brigada debe estar informado sobre todas las acciones llevadas a cabo, asegurando que se mantenga un registro adecuado que permita evaluar la respuesta y mejorar continuamente los protocolos de actuación ante incidentes futuros.
-
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema4/10.png", alt="").mb-4.mb-lg-0
-
-
-      .bg-full-width.bg-color-2.mb-5
-        .px-4.px-md-5.py-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/11.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Es importante resaltar que la brigada de prevención y combate de incendios, no solo actúa en la extinción de fuegos, sino que también desempeña un papel vital en la prevención y minimización de riesgos asociados a incendios, garantizando un ambiente laboral seguro. 
-
+                h5 Equipos de comunicación
+                p Son la columna vertebral de cualquier operación de rescate. La capacidad de mantener una comunicación constante y clara entre los miembros de la brigada es esencial para coordinar esfuerzos y garantizar la seguridad del equipo. La implementación de sistemas de comunicación redundantes, como radios de dos vías, teléfonos satelitales o aplicaciones móviles, puede ser crucial en áreas donde la cobertura de red es limitada o inexistente.
 
       #t_4_4.titulo-segundo(data-aos="flip-up")
-        h2 #[span 4.4] Brigada de comunicación
+        h2 #[span 4.4] Botiquín de primeros auxilios
 
-      .row.mb-5
+      
+      .bg-full-width.bg-color-2.mb-lg-5
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema4/4.png', alt='')
+            .col-lg-8
+              h2.mb-4(data-aos="flip-up") Botiquín de primeros auxilios
+              p.mb-4(data-aos="fade-right") En el PDF Botiquín de primeros auxilios , se detallan los tipos de botiquines que deben estar disponibles según las normativas vigentes en Colombia, así como los elementos necesarios para atender incidentes de manera efectiva en diferentes tipos de establecimientos comerciales.
+
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Botiquín de primeros auxilios
+
+      #t_4_5.titulo-segundo(data-aos="flip-up")
+        h2 #[span 4.5] Planificación y protocolos de emergencia
+
+      p(data-aos="fade-left").mb-4 El botiquín de primeros auxilios es una herramienta esencial para garantizar una atención oportuna en situaciones de emergencia, ya que permite brindar asistencia inmediata a personas lesionadas hasta que lleguen los servicios médicos especializados.
+
+      .row.align-items-start.mb-5
         .col-lg-8
-                      
-          .bg-color-5.px-4.py-4(data-aos="fade-left").mb-4
-            p.mb-0 La Brigada de Comunicación tiene la misión fundamental de garantizar que toda la información relacionada con situaciones de emergencia sea comunicada de manera efectiva y precisa dentro de la empresa. Su objetivo principal es concientizar a los trabajadores sobre los distintos riesgos y emergencias que pueden surgir en el entorno laboral, lo que les permitirá identificar y poner en práctica las medidas preventivas necesarias para resguardarse. En un entorno donde la seguridad y la salud son primordiales, esta brigada juega un papel crucial en la promoción de una cultura de prevención y preparación para emergencias.
+          p(data-aos="fade-left").mb-4 A continuación, se desarrollan en profundidad las distintas condiciones y características que deben ser consideradas en el perfil de un brigadista.
 
-          p(data-aos="ßfade-left").mb-4 #[b Los invito a que profundicemos acerca de las principales funciones:]
+          AcordionA(tipo="b")
+            .div(titulo="Protocolos de actuación")
+              p Estos son procedimientos específicos que deben ser adoptados en caso de diferentes tipos de emergencias, como incendios, terremotos, inundaciones o situaciones de violencia. Cada protocolo debe detallar las responsabilidades de cada miembro de la brigada, y las acciones a seguir en cada escenario. Es crucial que estos protocolos sean revisados y actualizados regularmente, para ver cambios en el entorno operativo o en la normativa legal vigente. La claridad y la accesibilidad de estos protocolos, son esenciales para asegurar que cada miembro del equipo sepa qué hacer en el momento crítico.
 
-        .col-lg-4.d-none.d-sm-block
+            .div(titulo="Mapas de riesgo")
+              p La identificación de áreas de riesgo es esencial para una respuesta eficaz. Estos mapas permiten visualizar las zonas más vulnerables y los caminos de evacuación más seguros. Además, deben incluir información sobre los recursos disponibles, como extintores, salidas de emergencia y puntos de reunión. La elaboración de estos mapas debe ser un proceso participativo, involucrando a todos los niveles de la organización, para asegurar considerar diferentes perspectivas y conocimientos locales.
+
+            .div(titulo="Simulacros y entrenamientos regulares")
+              p La preparación es clave en la gestión de emergencias. Realizar simulacros y entrenamientos periódicos, ayuda a mantener al personal alerta y familiarizado con los procedimientos establecidos. Estos ejercicios prácticos no solo refuerzan la confianza del equipo, sino que también permiten identificar áreas de mejora en los protocolos existentes. Durante los simulacros, es importante evaluar el tiempo de respuesta, la efectividad de la comunicación y la coordinación entre los miembros del equipo. Además, se deben documentar los resultados de cada ejercicio para realizar ajustes necesarios y así optimizar la planificación.
+
+        .col-lg-4
           figure
-            img(src="@/assets/curso/tema4/12.png", data-aos="zoom-in").mt-4.mt-lg-0
+            img(src="@/assets/curso/tema4/5.png", alt="").mb-4.mb-lg-0
 
-      .bg-full-width.bg-fondo-slider.mb-5
-        .p-4.p-md-5
-          SlyderA(tipo="b").bg-white(data-aos="zoom-in")
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-1-3.png")
-              .col-lg-7
-                h5 Establecimiento de canales de comunicación
-                p La brigada debe elaborar y mantener un listado actualizado de los números telefónicos de los órganos de auxilio y socorro que operan en la región donde se ubica la empresa. Además, es esencial que esta información sea comunicada a todos los trabajadores para que estén familiarizados con los contactos de emergencia disponibles.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-2-3.png")
-              .col-lg-7
-                h5 Gestión de emergencias
-                p En caso que se presente una situación de alto riesgo, emergencia, siniestro o desastre, la Brigada de comunicación tiene la responsabilidad de realizar las llamadas necesarias a los cuerpos de auxilio pertinentes, asegurando así una respuesta rápida y efectiva.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-3-3.png")
-              .col-lg-7
-                h5 Documentación de emergencias médicas
-                p Cuando se produzcan incidentes que requieran atención médica, la brigada deberá registrar la información relevante en el formato que adopte el Sistema de Gestión de Seguridad y Salud en el Trabajo. Esto incluye el número de ambulancia solicitada, el nombre del responsable de la atención, la dependencia involucrada y la ubicación a la que será trasladado el paciente. También es su deber notificar a los familiares sobre la situación del afectado.
-
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-4-3.png")
-              .col-lg-7
-                h5 Coordinación de información
-                p La Brigada de comunicación es responsable de recopilar y distribuir información sobre las circunstancias de cada incidente al Jefe de Brigada y a los responsables de la alta dirección que están involucrados en el Sistema de Comando de Incidentes (SCI). Esta acción es esencial para una correcta coordinación y toma de decisiones durante emergencias.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-5-3.png")
-              .col-lg-7
-                h5 Protocolos de amenazas
-                p Se debe contar con un formato específico para responder a amenazas de explosión (bomba), tal como lo dictan las normas establecidas por el Sistema de Gestión de Seguridad y Salud en el Trabajo. Este proceder garantiza que, en caso de recibir una amenaza, la respuesta sea rápida y organizada.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-6-3.png")
-              .col-lg-7
-                h5 Mantenimiento de equipos de comunicación
-                p La brigada es responsable de la supervisión y mantenimiento de los equipos de comunicación que se les proporciona. Esto implica mantener la carga de los dispositivos y asegurar su correcto funcionamiento, siguiendo las directrices aprendidas durante el entrenamiento previsto para este propósito.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-7-3.png")
-              .col-lg-7
-                h5 Capacitación y difusión
-                p La brigada llevará a cabo actividades de difundir información entre los trabajadores de la sede acerca de sus funciones y la importancia de la preparación ante emergencias. Esto incluye la identificación de los integrantes de la brigada, la localización de los equipos de protección, las rutas de evacuación y las normas de conducta a seguir en situaciones críticas. La creación de una cultura de prevención es un objetivo clave.
-
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5
-                figure
-                  img(src="@/assets/curso/tema4/slider-8-3.png")
-              .col-lg-7
-                h5 Evaluación y reporte
-                p Tras cada simulacro o situación real de emergencia, es obligatorio que la brigada emita un informe sobre los resultados obtenidos. Este procedimiento se dirige a mantener el Sistema de Gestión de Seguridad y Salud en el Trabajo actualizado y a mejorar continuamente las capacidades de respuesta de la organización.
 
 
       .bg-full-width.bg-color-2.mb-5
         .px-4.px-md-5.py-4
           .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/tema4/13.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/tema4/6.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 A través de estas funciones, la Brigada de comunicación, no solo actúa como un nexo vital en la cadena de respuesta ante emergencias, sino que también promueve un ambiente laboral más seguro y cohesionado, contribuyendo al bienestar integral de todos los trabajadores.
+              p.mb-0 La implementación de una planificación rigurosa y protocolos de emergencia, no solo protege a las personas y los bienes materiales, sino que también contribuye a crear una cultura organizacional de prevención y seguridad. 
 
-      #t_4_5.titulo-segundo(data-aos="flip-up")
-        h2 #[span 4.5] Brigada de búsqueda y rescate
+
 
       .row.mb-5
-        .col-lg-8
-          .bg-color-1.p-4(data-aos="fade-left").mb-4
-            .row.align-items-start
-              .col-lg-auto
-                img(src="@/assets/curso/tema4/14.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 En la actualidad, las brigadas anteriormente mencionadas, son las más comunes; sin embargo, quisiera invitarlos a que revisemos una brigada poco mencionada, pero de gran relevancia en la gestión de emergencias. Si bien es cierto, pocas empresas la tienen conformada, vale la pena enmarcar su funcionamiento y sus roles. 
-
-          p(data-aos="fade-left").mb-4 La Brigada de búsqueda y rescate, tiene como misión primordial asegurar la identificación y recuperación eficiente de personas en situaciones de emergencia, garantizando su bienestar y seguridad dentro de las empresas. Su objetivo principal es preparar a los trabajadores para actuar de manera rápida y efectiva durante situaciones de emergencia, lo que incluye la capacitación en técnicas de rescate. En un entorno donde el tiempo y la precisión son vitales, esta brigada desempeña un papel esencial en la protección de vidas y la mejora de la respuesta ante crisis.
-
-          p(data-aos="fade-left") #[b Los invito a profundizar sobre sus funciones principales:]  
-
         .col-lg-4
           figure
-            img(src="@/assets/curso/tema4/15.png", data-aos="zoom-in")
+            img(src="@/assets/curso/tema4/7.png", data-aos="zoom-in").mt-4.mt-lg-0
 
-
-      .row.align-items-start.mb-5
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema4/16.png", alt="").mb-4.mb-lg-0
         .col-lg-8
+          p(data-aos="fade-left").mb-4 Al fomentar la conciencia sobre la importancia de la preparación ante emergencias, se establece un entorno en el que todos los miembros de la organización se sienten empoderados y responsables de su propia seguridad y la de sus compañeros. En este sentido, la educación y la formación continua son herramientas claves que deben ser integradas en la rutina del personal, asegurando que la brigada esté siempre lista para actuar de manera efectiva cuando sea necesario.
 
-
-          AcordionA(tipo="b")
-            .div(titulo="Establecimiento de protocolo de búsqueda")
-              p La brigada debe desarrollar y mantener un protocolo claro para la búsqueda y localización de personas desaparecidas o atrapadas en situaciones de emergencia. Esta información debe ser accesible para todos los integrantes de la brigada, así como para el personal involucrado en las operaciones de rescate.
-
-            .div(titulo="Entrenamiento de rescate")
-              p La Brigada de búsqueda y rescate se encargará de realizar entrenamientos regulares para todos los miembros, asegurando que estén actualizados en técnicas de rescate, uso de herramientas especiales, y atención básica de emergencias. Esto incluye simulacros para preparar a los trabajadores para distintas eventualidades.
-
-            .div(titulo="Coordinación de rescate")
-              p La brigada será responsable de coordinarse con otros equipos de emergencia, incluyendo cuerpos de bomberos, policía y servicios médicos. Esta colaboración es fundamental para garantizar una respuesta unificada y eficiente, así como para facilitar la logística en las operaciones de rescate.
-
-            .div(titulo="Equipamiento de rescate")
-              p La brigada debe llevar a cabo el mantenimiento y supervisión de todos los equipos de rescate necesarios. Esto incluye revisar y mantener en óptimas condiciones herramientas de búsqueda, sistemas de comunicación y cualquier otro dispositivo que pueda ser utilizado en situaciones de emergencia.
-
-            .div(titulo="Creación de sensibilización")
-              p La brigada organizará campañas de sensibilización entre los trabajadores de la sede para informar sobre la importancia del rescate en situaciones críticas. Esto incluye la identificación de recursos disponibles, la importancia de la comunicación efectiva y cómo colaborar con la brigada en un evento de emergencia.
-
-            .div(titulo="Evaluación y mejora continua")
-              p Después de cada ejercicio de rescate o incidente real, la brigada deberá elaborar un informe que evalúe la eficacia de la respuesta, identificando áreas de mejora. Esta práctica no solo ayuda a optimizar los procesos, sino también contribuir al fortalecimiento del Sistema de Gestión de Seguridad y Salud en el Trabajo.
-
-      .bg-full-width.bg-color-2
-        .px-4.px-md-5.py-4
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema4/17.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 La comprensión y clasificación de los diferentes tipos de brigadas de emergencia es fundamental para asegurar una respuesta efectiva y coordinada ante situaciones de crisis.
+          .bg-color-1.p-4(data-aos="fade-left")
+            p.mb-0 Contar con los recursos básicos adecuados, es fundamental para el éxito de una brigada de emergencias. La combinación de personal capacitado, equipamiento de protección personal, herramientas de rescate, materiales de primeros auxilios, planificación adecuada y apoyo logístico permite que una brigada responda de manera efectiva ante situaciones críticas, minimizando riesgos y salvando vidas. La preparación y la capacitación continua son elementos claves que deben ser fomentados para garantizar que estas brigadas estén siempre listas para enfrentar cualquier desafío que se les presente. 
 
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5
@@ -496,29 +239,29 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de los siguientes elementos NO es parte de una brigada de emergencia?',
+              '¿Cuál es uno de los elementos que debe tener un botiquín tipo A?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Extintores',
+                texto: 'Tensiómetro',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Equipos de comunicación',
+                texto: 'Camilla',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Botiquín de primeros auxilios',
-                esCorrecta: false,
+                texto: 'Gasas limpias',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Equipos de entretenimiento',
-                esCorrecta: true,
+                texto: 'Linterna',
+                esCorrecta: false,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -526,28 +269,29 @@ export default {
           },
           {
             id: 2,
-            texto: 'El SNGRD fue creado mediante:',
+            texto:
+              '¿Qué se debe hacer para fomentar una cultura de seguridad en la organización?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Decreto 1072 de 2015',
+                texto: 'Ignorar los problemas de seguridad',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Ley 1523 de 2012',
+                texto: 'Realizar capacitaciones y simulacros',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Resolución 2400 de 1979',
+                texto: 'No involucrar a los empleados',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ley 9 de 1979',
+                texto: 'Reducir los recursos destinados a seguridad',
                 esCorrecta: false,
               },
             ],
@@ -557,29 +301,28 @@ export default {
           {
             id: 3,
             texto:
-              'La función principal de la brigada de primeros auxilios es:',
+              '¿Qué tipo de botiquín es obligado para un establecimiento menor a 2,000 m²?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Controlar incendios menores',
+                texto: 'Tipo B',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto:
-                  'Brindar atención inmediata a las víctimas y estabilizarlas',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Supervisar las rutas de evacuación',
+                texto: 'Tipo C',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Tipo A',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Gestionar recursos de emergencia',
+                texto: 'Tipo D',
                 esCorrecta: false,
               },
             ],
@@ -589,18 +332,28 @@ export default {
           {
             id: 4,
             texto:
-              'La capacitación continua es esencial para mantener la efectividad de una brigada de emergencia.',
+              '¿Cuál es la función de las cuerda y arneses en situaciones de rescate?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
-                esCorrecta: true,
+                texto: 'Seguridad para el rescatado',
+                esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Seguridad de rescatistas',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Protección contra el sol',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Cumplir procedimiento',
                 esCorrecta: false,
               },
             ],
@@ -610,19 +363,29 @@ export default {
           {
             id: 5,
             texto:
-              'La brigada de comunicación se encarga de brindar atención médica en emergencias.',
+              '¿Qué papel desempeñan las camillas y sillas de ruedas en emergencias?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
-                esCorrecta: false,
+                texto: 'Transporte de heridos',
+                esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Falso',
-                esCorrecta: true,
+                texto: 'Estabilización de los afectados',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Equipos de comunicación',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Traslados de rescatistas',
+                esCorrecta: false,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

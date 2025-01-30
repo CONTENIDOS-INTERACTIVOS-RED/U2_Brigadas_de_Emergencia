@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno laboral, la seguridad es un pilar fundamental para garantizar el bienestar de los trabajadores. Las brigadas de emergencia surgen como una estrategia clave para enfrentar situaciones de riesgo y responder de manera rápida y efectiva ante cualquier eventualidad que pueda poner en peligro la integridad de las personas o los bienes de una organización. Esta unidad profundiza en los conceptos esenciales de las brigadas de emergencia, abarcando su marco conceptual, la normativa vigente y los tipos de brigadas existentes.
+              p.descripcion.mb-4 En cualquier entorno laboral, la seguridad es una prioridad que requiere preparación constante para afrontar situaciones de riesgo. Las brigadas de emergencia se presentan como un elemento esencial para garantizar la protección y el bienestar de todas las personas que hacen parte de una organización.
 
 
-              p A través de este contenido, se busca fortalecer la capacidad de respuesta ante emergencias mediante la creación de equipos capacitados y la promoción de una cultura de prevención. #[b ¡Prepárate para liderar la seguridad en tu entorno laboral con eficacia y compromiso!]
+              p #[b ¡Prepárese para garantizar la seguridad y protección en situaciones de emergencia con confianza y eficacia!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
