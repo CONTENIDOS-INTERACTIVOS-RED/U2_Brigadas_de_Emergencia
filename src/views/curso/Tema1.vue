@@ -61,6 +61,9 @@
 
     p(data-aos="fade-left").mb-4 Cada miembro tiene un rol claramente definido, pero la colaboración y la toma de decisiones conjunta son esenciales para garantizar la eficacia de la respuesta ante una emergencia.
 
+    p(data-aos="fade-left").mb-4 Adicionalmente debemos enmarcar que el Comité tiene la responsabilidad de:
+
+
     .bg-full-width-2.bg-fondo-1
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-stretch.mb-5

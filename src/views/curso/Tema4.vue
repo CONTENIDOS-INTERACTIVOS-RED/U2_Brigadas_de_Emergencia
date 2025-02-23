@@ -150,6 +150,7 @@
       #t_4_4.titulo-segundo(data-aos="flip-up")
         h2 #[span 4.4] Botiquín de primeros auxilios
 
+      p(data-aos="fade-left").mb-4 El botiquín de primeros auxilios es una herramienta esencial para garantizar una atención oportuna en situaciones de emergencia, ya que permite brindar asistencia inmediata a personas lesionadas hasta que lleguen los servicios médicos especializados.
       
       .bg-full-width.bg-color-2.mb-lg-5
         .px-4.p-md-5
@@ -160,7 +161,7 @@
                 img(src='@/assets/curso/tema4/4.png', alt='')
             .col-lg-8
               h2.mb-4(data-aos="flip-up") Botiquín de primeros auxilios
-              p.mb-4(data-aos="fade-right") En el PDF Botiquín de primeros auxilios , se detallan los tipos de botiquines que deben estar disponibles según las normativas vigentes en Colombia, así como los elementos necesarios para atender incidentes de manera efectiva en diferentes tipos de establecimientos comerciales.
+              p.mb-4(data-aos="fade-right") En el PDF Botiquín de primeros auxilios, se detallan los tipos de botiquines que deben estar disponibles según las normativas vigentes en Colombia, así como los elementos necesarios para atender incidentes de manera efectiva en diferentes tipos de establecimientos comerciales.
 
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -171,11 +172,11 @@
       #t_4_5.titulo-segundo(data-aos="flip-up")
         h2 #[span 4.5] Planificación y protocolos de emergencia
 
-      p(data-aos="fade-left").mb-4 El botiquín de primeros auxilios es una herramienta esencial para garantizar una atención oportuna en situaciones de emergencia, ya que permite brindar asistencia inmediata a personas lesionadas hasta que lleguen los servicios médicos especializados.
+      p(data-aos="fade-left").mb-4 La planificación y los protocolos de emergencia, son pilares fundamentales en la gestión de crisis dentro de cualquier organización. No solo se trata de contar con recursos físicos, sino de establecer un marco de acción que permita una respuesta efectiva ante situaciones adversas. Un plan bien definido no solo facilita la coordinación de la brigada de emergencia, sino que también minimiza el riesgo de lesiones y daños materiales.
 
       .row.align-items-start.mb-5
         .col-lg-8
-          p(data-aos="fade-left").mb-4 A continuación, se desarrollan en profundidad las distintas condiciones y características que deben ser consideradas en el perfil de un brigadista.
+
 
           AcordionA(tipo="b")
             .div(titulo="Protocolos de actuación")

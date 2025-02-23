@@ -24,5 +24,6 @@
           .col-lg-auto
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Al concluir este programa formativo, los participantes no solo tendrán la capacidad de cumplir con las exigencias legales relacionadas con la implementación de brigadas de emergencia, sino que también contribuirán al fortalecimiento de la seguridad integral en sus lugares de trabajo. Serán capaces de desarrollar planes de capacitación continua, que promuevan la conciencia sobre la importancia de la preparación ante emergencias, así como de establecer procedimientos claros de actuación ante incidentes, minimizando de esta manera, el impacto potencial de cualquier eventualidad.
+            p.mb-0 Al concluir este proceso, los participantes no solo tendrán la capacidad de cumplir con las exigencias legales relacionadas con la implementación de brigadas de emergencia, sino que también contribuirán al fortalecimiento de la seguridad integral en sus lugares de trabajo. Serán capaces de desarrollar planes de capacitación continuos, que promuevan la conciencia sobre la importancia de la preparación ante emergencias, así como de establecer procedimientos claros de actuación ante incidentes, minimizando, de esta manera, el impacto potencial de cualquier eventualidad.
+
 </template>
